@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://e20c64kqc121"]
 
 [ext_resource type="Texture2D" uid="uid://da1dvahcvgy5o" path="res://icon.svg" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://d1ry0o0xy07fe" path="res://fall.gd" id="2_uu6xs"]
 
 [node name="Node2D" type="Node2D" unique_id=55065852]
 
@@ -19,3 +20,8 @@ texture = ExtResource("1_glv2v")
 [node name="Icon4" type="Sprite2D" parent="." unique_id=1879238575]
 position = Vector2(1039, 551)
 texture = ExtResource("1_glv2v")
+
+[node name="Icon5" type="Sprite2D" parent="." unique_id=1911716552]
+position = Vector2(718, 355)
+texture = ExtResource("1_glv2v")
+script = ExtResource("2_uu6xs")
